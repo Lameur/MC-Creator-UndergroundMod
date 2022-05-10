@@ -272,6 +272,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "platinium_bow"
+    },
+    {
+      "name": "Undergroundportaligniter",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undergroundportaligniter"
     }
   ],
   "variable_elements": [],

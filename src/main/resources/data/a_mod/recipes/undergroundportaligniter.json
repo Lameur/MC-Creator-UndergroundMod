@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:flint_and_steel"
+  },
+  "result": "a_mod:underground"
+}
