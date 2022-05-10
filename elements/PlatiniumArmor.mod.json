@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "platinium_head",
+    "enableBody": true,
+    "textureBody": "platinium_body",
+    "enableLeggings": true,
+    "textureLeggings": "platinium_leggings",
+    "enableBoots": true,
+    "textureBoots": "platinium_boots",
+    "creativeTab": {
+      "value": "CUSTOM:UndergroudMod"
+    },
+    "armorTextureFile": "platinium",
+    "helmetName": "Platinium Helmet",
+    "bodyName": "Platinium Chestplate",
+    "leggingsName": "Platinium Leggings",
+    "bootsName": "Platinium Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 50,
+    "damageValueHelmet": 20,
+    "damageValueBody": 60,
+    "damageValueLeggings": 50,
+    "damageValueBoots": 20,
+    "enchantability": 90,
+    "toughness": 10.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlatiniumIngot"
+      }
+    ]
+  }
+}

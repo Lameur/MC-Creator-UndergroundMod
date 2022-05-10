@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "a_mod:platinium_block",
+    "a_mod:platinium_ore",
+    "a_mod:underground_block_base"
+  ]
+}

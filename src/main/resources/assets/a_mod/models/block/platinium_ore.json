@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "a_mod:blocks/platinium_ore",
+    "up": "a_mod:blocks/platinium_ore",
+    "north": "a_mod:blocks/platinium_ore",
+    "east": "a_mod:blocks/platinium_ore",
+    "south": "a_mod:blocks/platinium_ore",
+    "west": "a_mod:blocks/platinium_ore",
+    "particle": "a_mod:blocks/platinium_ore"
+  }
+}

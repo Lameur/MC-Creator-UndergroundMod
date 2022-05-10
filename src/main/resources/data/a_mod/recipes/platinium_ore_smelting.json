@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "a_mod:platinium_ore"
+    }
+  ],
+  "result": {
+    "item": "a_mod:platinium_ingot",
+    "count": 1
+  }
+}

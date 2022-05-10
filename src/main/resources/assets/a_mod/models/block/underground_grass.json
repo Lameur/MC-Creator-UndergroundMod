@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "a_mod:blocks/underground_grass",
+    "top": "a_mod:blocks/underground_grass",
+    "side": "a_mod:blocks/underground_grass",
+    "overlay": "a_mod:blocks/underground_grass",
+    "particle": "a_mod:blocks/underground_grass"
+  }
+}

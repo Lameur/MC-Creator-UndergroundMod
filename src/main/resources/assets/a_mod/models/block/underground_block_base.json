@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "a_mod:blocks/rgb_block",
+    "up": "a_mod:blocks/rgb_block",
+    "north": "a_mod:blocks/rgb_block",
+    "east": "a_mod:blocks/rgb_block",
+    "south": "a_mod:blocks/rgb_block",
+    "west": "a_mod:blocks/rgb_block",
+    "particle": "a_mod:blocks/rgb_block"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "a_mod:blocks/underground_crafting_table",
+    "up": "a_mod:blocks/underground_crafting_table",
+    "north": "a_mod:blocks/underground_crafting_table",
+    "east": "a_mod:blocks/underground_crafting_table",
+    "south": "a_mod:blocks/underground_crafting_table",
+    "west": "a_mod:blocks/underground_crafting_table",
+    "particle": "a_mod:blocks/underground_crafting_table"
+  }
+}

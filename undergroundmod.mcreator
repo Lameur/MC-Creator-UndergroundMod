@@ -1,0 +1,325 @@
+{
+  "mod_elements": [
+    {
+      "name": "PlatiniumIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_ingot"
+    },
+    {
+      "name": "PlatiniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_ore"
+    },
+    {
+      "name": "PlatiniumBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_block"
+    },
+    {
+      "name": "PlatiniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_ore_block_recipe"
+    },
+    {
+      "name": "PlatiniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_block_ore_recipe"
+    },
+    {
+      "name": "PlatiniumOreSmelting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_ore_smelting"
+    },
+    {
+      "name": "PlatiniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_pickaxe_recipe"
+    },
+    {
+      "name": "PlatiniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_axe_recipe"
+    },
+    {
+      "name": "PlatiniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_sword_recipe"
+    },
+    {
+      "name": "PlatiniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_shovel_recipe"
+    },
+    {
+      "name": "PlatiniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_hoe_recipe"
+    },
+    {
+      "name": "PlatiniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_armor_helmet_recipe"
+    },
+    {
+      "name": "PlatiniumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_armor_body_recipe"
+    },
+    {
+      "name": "PlatiniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_armor_leggings_recipe"
+    },
+    {
+      "name": "PlatiniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_armor_boots_recipe"
+    },
+    {
+      "name": "UndergroundBlockBase",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_block_base"
+    },
+    {
+      "name": "UndergroundGrass",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_grass"
+    },
+    {
+      "name": "GlobalBiome",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "global_biome"
+    },
+    {
+      "name": "CraftingGUI",
+      "type": "gui",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_gui"
+    },
+    {
+      "name": "Crafting",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting"
+    },
+    {
+      "name": "Underground",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "UndergroudMod",
+      "type": "tab",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undergroud_mod"
+    },
+    {
+      "name": "CraftingLorsDunClicDroitSurLeBloc",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_lors_dun_clic_droit_sur_le_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlatiniumArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "PlatiniumPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_pickaxe"
+    },
+    {
+      "name": "PlatiniumAxe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_axe"
+    },
+    {
+      "name": "PlatiniumSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_sword"
+    },
+    {
+      "name": "PlatiniumShovel",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_shovel"
+    },
+    {
+      "name": "PlatiniumHoe",
+      "type": "tool",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_hoe"
+    },
+    {
+      "name": "PlatiniumBow",
+      "type": "rangeditem",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "platinium_bow"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.a_mod.platinium_armor_chestplate": "Platinium Chestplate",
+      "block.a_mod.underground_block_base": "Underground Block Base",
+      "item.a_mod.platinium_pickaxe": "Platinium Pickaxe",
+      "item.a_mod.platinium_sword": "Platinium Sword",
+      "item.a_mod.platinium_bow": "Platinium Bow",
+      "item.a_mod.platinium_ingot": "Platinium",
+      "item.a_mod.underground": "Underground Portal Igniter",
+      "item.a_mod.platinium_axe": "Platinium Axe",
+      "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
+      "block.a_mod.underground_grass": "Underground Grass",
+      "fr_fr": "",
+      "itemGroup.tabundergroud_mod": "Undergroud Mod",
+      "item.a_mod.platinium_armor_boots": "Platinium Boots",
+      "item.a_mod.platinium_hoe": "Platinium Hoe",
+      "item.a_mod.platinium_shovel": "Platinium Shovel",
+      "biome.a_mod.global_biome": "Global Biome",
+      "block.a_mod.platinium_ore": "Platinium Ore",
+      "block.a_mod.platinium_block": "Block of Platinium",
+      "item.a_mod.platinium_armor_leggings": "Platinium Leggings",
+      "block.a_mod.crafting": "Crafting"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "a_mod",
+    "modName": "a mod",
+    "version": "1.0.0",
+    "author": "AMA, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.amod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}

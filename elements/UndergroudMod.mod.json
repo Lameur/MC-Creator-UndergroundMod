@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Undergroud Mod",
+    "icon": {
+      "value": "CUSTOM:PlatiniumIngot"
+    },
+    "showSearch": true
+  }
+}

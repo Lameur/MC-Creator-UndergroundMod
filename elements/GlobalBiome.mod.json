@@ -1,0 +1,101 @@
+{
+  "_fv": 28,
+  "_type": "biome",
+  "definition": {
+    "name": "Global Biome",
+    "groundBlock": {
+      "value": "CUSTOM:UndergroundGrass"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:UndergroundBlockBase"
+    },
+    "underwaterBlock": {
+      "value": "CUSTOM:UndergroundBlockBase"
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ELECTRIC_SPARK"
+    },
+    "particlesProbability": 50.0,
+    "biomeCategory": "UNDERGROUND",
+    "rainingPossibility": 0.1,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 6,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 1,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 4,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 10,
+    "treeStem": {
+      "value": "Blocks.LOG"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES"
+    },
+    "treeVines": {
+      "value": "Blocks.LIGHT"
+    },
+    "treeFruits": {
+      "value": "Blocks.PISTON_EXTENSION"
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": true,
+    "spawnShipwreck": true,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": true,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "JUNGLE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "AmethystGeodes",
+      "Fossils",
+      "LushCavesDecoration",
+      "OceanCaves",
+      "PlainsTallGrass",
+      "SwampVegetation",
+      "JungleTreeForest"
+    ],
+    "spawnEntries": []
+  }
+}
