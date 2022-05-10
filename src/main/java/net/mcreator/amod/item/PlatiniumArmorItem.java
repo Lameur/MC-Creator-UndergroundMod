@@ -63,7 +63,7 @@ public abstract class PlatiniumArmorItem extends ArmorItem {
 
 	public static class Helmet extends PlatiniumArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD).fireResistant());
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class PlatiniumArmorItem extends ArmorItem {
 
 	public static class Chestplate extends PlatiniumArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD).fireResistant());
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class PlatiniumArmorItem extends ArmorItem {
 
 	public static class Leggings extends PlatiniumArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD).fireResistant());
 		}
 
 		@Override
@@ -96,7 +96,7 @@ public abstract class PlatiniumArmorItem extends ArmorItem {
 
 	public static class Boots extends PlatiniumArmorItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(AModModTabs.TAB_UNDERGROUD_MOD).fireResistant());
 		}
 
 		@Override

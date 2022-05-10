@@ -291,6 +291,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -320,7 +324,7 @@
       "item.a_mod.platinium_sword": "Platinium Sword",
       "item.a_mod.platinium_bow": "Platinium Bow",
       "item.a_mod.platinium_ingot": "Platinium",
-      "item.a_mod.underground": "Underground_portal_igniter",
+      "item.a_mod.underground": "Underground portal igniter",
       "item.a_mod.platinium_axe": "Platinium Axe",
       "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
       "block.a_mod.underground_grass": "Underground Grass",

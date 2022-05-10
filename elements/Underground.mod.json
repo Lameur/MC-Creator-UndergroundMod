@@ -31,7 +31,7 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Underground_portal_igniter",
+    "igniterName": "Underground portal igniter",
     "igniterTab": {
       "value": "CUSTOM:UndergroudMod"
     },

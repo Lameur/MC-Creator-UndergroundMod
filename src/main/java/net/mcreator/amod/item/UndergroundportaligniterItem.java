@@ -59,7 +59,7 @@ public class UndergroundportaligniterItem extends Item {
 	public InteractionResult useOn(UseOnContext context) {
 		InteractionResult retval = super.useOn(context);
 		UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(context.getLevel(),
-				context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ());
+				context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer());
 		return retval;
 	}
 }
