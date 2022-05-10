@@ -35,7 +35,7 @@ import java.util.stream.IntStream;
 import io.netty.buffer.Unpooled;
 
 public class CraftingBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(1, ItemStack.EMPTY);
+	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(2, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public CraftingBlockEntity(BlockPos position, BlockState state) {

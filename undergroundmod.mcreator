@@ -275,11 +275,39 @@
     },
     {
       "name": "Undergroundportaligniter",
-      "type": "recipe",
+      "type": "item",
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "undergroundportaligniter"
+    },
+    {
+      "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undergroundportaligniter_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -292,13 +320,14 @@
       "item.a_mod.platinium_sword": "Platinium Sword",
       "item.a_mod.platinium_bow": "Platinium Bow",
       "item.a_mod.platinium_ingot": "Platinium",
-      "item.a_mod.underground": "Underground Portal Igniter",
+      "item.a_mod.underground": "Underground_portal_igniter",
       "item.a_mod.platinium_axe": "Platinium Axe",
       "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
       "block.a_mod.underground_grass": "Underground Grass",
       "fr_fr": "",
       "itemGroup.tabundergroud_mod": "Undergroud Mod",
       "item.a_mod.platinium_armor_boots": "Platinium Boots",
+      "item.a_mod.undergroundportaligniter": "Undergroundportaligniter",
       "item.a_mod.platinium_hoe": "Platinium Hoe",
       "item.a_mod.platinium_shovel": "Platinium Shovel",
       "biome.a_mod.global_biome": "Global Biome",

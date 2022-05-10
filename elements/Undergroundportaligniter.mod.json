@@ -1,20 +1,46 @@
 {
   "_fv": 28,
-  "_type": "recipe",
+  "_type": "item",
   "definition": {
-    "recipeType": "Blasting",
-    "xpReward": 1.0,
-    "cookingTime": 100,
-    "recipeRetstackSize": 1,
-    "group": "",
-    "recipeShapeless": false,
-    "blastingInputStack": {
-      "value": "Items.FLINT_AND_STEEL"
+    "renderType": 0,
+    "texture": "mod_icon",
+    "customModelName": "Normal",
+    "name": "Undergroundportaligniter",
+    "rarity": "UNCOMMON",
+    "creativeTab": {
+      "value": "CUSTOM:UndergroudMod"
     },
-    "blastingReturnStack": {
-      "value": "CUSTOM:Underground"
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 45,
+    "recipeRemainder": {
+      "value": ""
     },
-    "name": "undergroundportaligniter",
-    "namespace": "mod"
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": true,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": true,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+    },
+    "hasDispenseBehavior": false,
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "eat"
   }
 }

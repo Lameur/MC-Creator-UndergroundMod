@@ -19,7 +19,7 @@
     "isDark": true,
     "doesWaterVaporize": false,
     "sleepResult": "ALLOW",
-    "hasSkyLight": false,
+    "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
     "portalFrame": {
       "value": "CUSTOM:PlatiniumBlock"
@@ -31,12 +31,12 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Underground Portal Igniter",
+    "igniterName": "Underground_portal_igniter",
     "igniterTab": {
       "value": "CUSTOM:UndergroudMod"
     },
     "texture": "mod_icon",
-    "portalTexture": "portal",
+    "portalTexture": "portal_animation",
     "enablePortal": true
   }
 }

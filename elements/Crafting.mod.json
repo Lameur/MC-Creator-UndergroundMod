@@ -107,7 +107,7 @@
     "hasInventory": true,
     "guiBoundTo": "CraftingGUI",
     "openGUIOnRightClick": true,
-    "inventorySize": 1,
+    "inventorySize": 2,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": false,

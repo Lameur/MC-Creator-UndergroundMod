@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.amod.item.UndergroundportaligniterItem;
 import net.mcreator.amod.item.UndergroundItem;
 import net.mcreator.amod.item.PlatiniumSwordItem;
 import net.mcreator.amod.item.PlatiniumShovelItem;
@@ -46,6 +47,8 @@ public class AModModItems {
 	public static final RegistryObject<Item> PLATINIUM_SHOVEL = REGISTRY.register("platinium_shovel", () -> new PlatiniumShovelItem());
 	public static final RegistryObject<Item> PLATINIUM_HOE = REGISTRY.register("platinium_hoe", () -> new PlatiniumHoeItem());
 	public static final RegistryObject<Item> PLATINIUM_BOW = REGISTRY.register("platinium_bow", () -> new PlatiniumBowItem());
+	public static final RegistryObject<Item> UNDERGROUNDPORTALIGNITER = REGISTRY.register("undergroundportaligniter",
+			() -> new UndergroundportaligniterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
