@@ -122,18 +122,22 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:Underground"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:GlobalBiome"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
     "generationShape": "TRIANGLE",
-    "frequencyPerChunks": 1,
-    "frequencyOnChunk": 0,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 7
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 4,
+    "minGenerateHeight": -64,
+    "maxGenerateHeight": 30
   }
 }

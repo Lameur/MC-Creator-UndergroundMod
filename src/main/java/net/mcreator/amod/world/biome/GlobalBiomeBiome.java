@@ -44,7 +44,7 @@ public class GlobalBiomeBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)
 				.foliageColorOverride(10387789).grassColorOverride(9470285)
-				.ambientParticle(new AmbientParticleSettings(ParticleTypes.ELECTRIC_SPARK, 0.5f)).build();
+				.ambientParticle(new AmbientParticleSettings(ParticleTypes.ELECTRIC_SPARK, 0.2f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("a_mod:tree_global_biome",
