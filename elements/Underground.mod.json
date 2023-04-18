@@ -7,12 +7,12 @@
         "value": "CUSTOM:GlobalBiome"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "Nether like gen",
     "mainFillerBlock": {
       "value": "CUSTOM:UndergroundBlockBase"
     },
     "fluidBlock": {
-      "value": "Blocks.FLOWING_WATER"
+      "value": "Blocks.LAVA"
     },
     "canRespawnHere": true,
     "hasFog": false,
@@ -37,6 +37,9 @@
     },
     "texture": "mod_icon",
     "portalTexture": "portal_animation",
-    "enablePortal": true
+    "enablePortal": true,
+    "whenPortaTriggerlUsed": {
+      "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+    }
   }
 }

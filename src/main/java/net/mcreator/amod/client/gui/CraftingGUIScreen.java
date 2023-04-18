@@ -74,7 +74,7 @@ public class CraftingGUIScreen extends AbstractContainerScreen<CraftingGUIMenu> 
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, new TranslatableComponent("gui.a_mod.crafting_gui.label_fluidlevel"), 105, 7, -12829636);
+		this.font.draw(poseStack, new TranslatableComponent("gui.a_mod.crafting_gui.label_fluidlevel"), 132, 7, -12829636);
 	}
 
 	@Override

@@ -467,6 +467,7 @@
       "registry_name": "undergroundportaligniter",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/amod/item/inventory/UndergroundportaligniterInventoryCapability.java",
           "src/main/resources/assets/a_mod/models/item/undergroundportaligniter.json",
           "src/main/java/net/mcreator/amod/item/UndergroundportaligniterItem.java"
         ]
@@ -506,6 +507,32 @@
           }
         ]
       }
+    },
+    {
+      "name": "Conf",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "conf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/configuration/ConfConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "Arrowbullet",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrowbullet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/arrowbullet.json",
+          "src/main/java/net/mcreator/amod/item/ArrowbulletItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -514,26 +541,28 @@
     "en_us": {
       "item.a_mod.platinium_armor_chestplate": "Platinium Chestplate",
       "block.a_mod.underground_block_base": "Underground Block Base",
-      "item.a_mod.platinium_pickaxe": "Platinium Pickaxe",
-      "item.a_mod.platinium_sword": "Platinium Sword",
-      "item.a_mod.platinium_bow": "Platinium Bow",
       "item.a_mod.platinium_ingot": "Platinium",
       "gui.a_mod.crafting_gui.label_fluidlevel": "\u003cfluidlevel\u003e",
-      "item.a_mod.underground": "Underground portal igniter",
-      "item.a_mod.platinium_axe": "Platinium Axe",
-      "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
       "block.a_mod.underground_grass": "Underground Grass",
       "fr_fr": "",
       "itemGroup.tabundergroud_mod": "Undergroud Mod",
       "item.a_mod.platinium_armor_boots": "Platinium Boots",
-      "item.a_mod.undergroundportaligniter": "Undergroundportaligniter",
-      "item.a_mod.platinium_hoe": "Platinium Hoe",
+      "item.a_mod.undergroundportaligniter": "Underground portal igniter",
       "item.a_mod.platinium_shovel": "Platinium Shovel",
-      "biome.a_mod.global_biome": "Global Biome",
       "block.a_mod.platinium_ore": "Platinium Ore",
+      "block.a_mod.crafting": "Crafting",
+      "item.a_mod.platinium_pickaxe": "Platinium Pickaxe",
+      "item.a_mod.platinium_sword": "Platinium Sword",
+      "item.a_mod.platinium_bow": "Platinium Bow",
+      "item.a_mod.underground": "Underground portal igniter",
+      "item.a_mod.platinium_axe": "Platinium Axe",
+      "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
+      "item.a_mod.arrowbullet": "Arrowbullet",
+      "item.a_mod.platinium_hoe": "Platinium Hoe",
+      "config.a_mod.conf": "Conf",
+      "biome.a_mod.global_biome": "Global Biome",
       "block.a_mod.platinium_block": "Block of Platinium",
-      "item.a_mod.platinium_armor_leggings": "Platinium Leggings",
-      "block.a_mod.crafting": "Crafting"
+      "item.a_mod.platinium_armor_leggings": "Platinium Leggings"
     }
   },
   "foldersRoot": {

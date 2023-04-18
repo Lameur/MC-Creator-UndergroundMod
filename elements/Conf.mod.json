@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "config",
+  "definition": {
+    "pools": [
+      {
+        "category": "",
+        "entries": [
+          {
+            "item": {
+              "value": ""
+            },
+            "silkTouchMode": 0,
+            "block": {
+              "value": ""
+            },
+            "logicField": 1,
+            "numberField": 0.0,
+            "textDefault": "",
+            "comment": "",
+            "vardisplay": "",
+            "varname": "cheat",
+            "enablecomment": false,
+            "onlyComment": false,
+            "entityType": "EntityAgeable"
+          }
+        ]
+      }
+    ],
+    "file": "Conf",
+    "configType": 0
+  }
+}

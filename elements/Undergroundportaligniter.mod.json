@@ -5,8 +5,8 @@
     "renderType": 0,
     "texture": "mod_icon",
     "customModelName": "Tool",
-    "name": "Undergroundportaligniter",
-    "rarity": "UNCOMMON",
+    "name": "Underground portal igniter",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:UndergroudMod"
     },
@@ -16,7 +16,7 @@
     "toolType": 1.0,
     "damageCount": 45,
     "recipeRemainder": {
-      "value": ""
+      "value": "CUSTOM:Underground"
     },
     "destroyAnyBlock": false,
     "immuneToFire": true,
@@ -26,7 +26,7 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": true,
-    "guiBoundTo": "<NONE>",
+    "guiBoundTo": "CraftingGUI",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
@@ -43,6 +43,6 @@
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "crossbow"
   }
 }

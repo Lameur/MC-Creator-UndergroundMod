@@ -8,7 +8,6 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ItemSupplier;
 import net.minecraft.world.entity.projectile.AbstractArrow;
@@ -18,6 +17,7 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.amod.init.AModModItems;
 import net.mcreator.amod.init.AModModEntities;
 
 import java.util.Random;
@@ -48,7 +48,7 @@ public class PlatiniumBowEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return new ItemStack(Items.DIAMOND_SWORD);
+		return new ItemStack(AModModItems.ARROWBULLET.get());
 	}
 
 	@Override

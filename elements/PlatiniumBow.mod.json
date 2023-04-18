@@ -29,7 +29,7 @@
     "bulletParticles": true,
     "bulletIgnitesFire": true,
     "bulletItemTexture": {
-      "value": "Items.DIAMOND_SWORD"
+      "value": "CUSTOM:Arrowbullet"
     },
     "bulletModel": "Default",
     "customBulletModelTexture": "platiniumbow_arrow.png"

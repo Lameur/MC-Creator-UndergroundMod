@@ -9,6 +9,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.amod.procedures.UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure;
 import net.mcreator.amod.init.AModModTabs;
 import net.mcreator.amod.block.UndergroundPortalBlock;
 
@@ -35,7 +36,9 @@ public class UndergroundItem extends Item {
 				itemstack.hurtAndBreak(1, entity, c -> c.broadcastBreakEvent(context.getHand()));
 				success = true;
 			}
-			return success ? InteractionResult.SUCCESS : InteractionResult.FAIL;
+
+			UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.execute(world, x, y, z, entity);
+			return InteractionResult.SUCCESS;
 		}
 	}
 }

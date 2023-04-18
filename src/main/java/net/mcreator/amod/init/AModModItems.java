@@ -23,6 +23,7 @@ import net.mcreator.amod.item.PlatiniumHoeItem;
 import net.mcreator.amod.item.PlatiniumBowItem;
 import net.mcreator.amod.item.PlatiniumAxeItem;
 import net.mcreator.amod.item.PlatiniumArmorItem;
+import net.mcreator.amod.item.ArrowbulletItem;
 import net.mcreator.amod.AModMod;
 
 public class AModModItems {
@@ -45,6 +46,7 @@ public class AModModItems {
 	public static final RegistryObject<Item> PLATINIUM_HOE = REGISTRY.register("platinium_hoe", () -> new PlatiniumHoeItem());
 	public static final RegistryObject<Item> PLATINIUM_BOW = REGISTRY.register("platinium_bow", () -> new PlatiniumBowItem());
 	public static final RegistryObject<Item> UNDERGROUNDPORTALIGNITER = REGISTRY.register("undergroundportaligniter", () -> new UndergroundportaligniterItem());
+	public static final RegistryObject<Item> ARROWBULLET = REGISTRY.register("arrowbullet", () -> new ArrowbulletItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

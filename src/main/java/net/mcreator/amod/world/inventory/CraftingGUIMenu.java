@@ -75,9 +75,9 @@ public class CraftingGUIMenu extends AbstractContainerMenu implements Supplier<M
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 35) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 44) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 35) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 115, 44) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
