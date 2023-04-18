@@ -29,8 +29,8 @@ import java.util.ArrayList;
 public class AModModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, AModMod.MODID);
 	private static final List<FeatureRegistration> FEATURE_REGISTRATIONS = new ArrayList<>();
-	public static final RegistryObject<Feature<?>> PLATINIUM_ORE = register("platinium_ore", PlatiniumOreFeature::feature, new FeatureRegistration(
-			GenerationStep.Decoration.UNDERGROUND_ORES, PlatiniumOreFeature.GENERATE_BIOMES, PlatiniumOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> PLATINIUM_ORE = register("platinium_ore", PlatiniumOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, PlatiniumOreFeature.GENERATE_BIOMES, PlatiniumOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
@@ -45,7 +45,6 @@ public class AModModFeatures {
 		}
 	}
 
-	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes,
-			Supplier<Holder<PlacedFeature>> placedFeature) {
+	private static record FeatureRegistration(GenerationStep.Decoration stage, Set<ResourceLocation> biomes, Supplier<Holder<PlacedFeature>> placedFeature) {
 	}
 }

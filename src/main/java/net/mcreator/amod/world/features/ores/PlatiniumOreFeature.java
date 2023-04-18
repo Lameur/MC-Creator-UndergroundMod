@@ -43,10 +43,9 @@ public class PlatiniumOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new PlatiniumOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("a_mod:platinium_ore", FEATURE,
-				new OreConfiguration(PlatiniumOreFeatureRuleTest.INSTANCE, AModModBlocks.PLATINIUM_ORE.get().defaultBlockState(), 4));
-		PLACED_FEATURE = PlacementUtils.register("a_mod:platinium_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-				HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(30)), BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("a_mod:platinium_ore", FEATURE, new OreConfiguration(PlatiniumOreFeatureRuleTest.INSTANCE, AModModBlocks.PLATINIUM_ORE.get().defaultBlockState(), 4));
+		PLACED_FEATURE = PlacementUtils.register("a_mod:platinium_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(10), InSquarePlacement.spread(), HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(30)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -55,8 +54,7 @@ public class PlatiniumOreFeature extends OreFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("a_mod:global_biome"));
-	private final Set<ResourceKey<Level>> generate_dimensions = Set
-			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("a_mod:underground")));
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("a_mod:underground")));
 
 	public PlatiniumOreFeature() {
 		super(OreConfiguration.CODEC);

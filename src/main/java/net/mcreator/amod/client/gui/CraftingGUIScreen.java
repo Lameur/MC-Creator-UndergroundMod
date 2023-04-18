@@ -1,21 +1,17 @@
 
 package net.mcreator.amod.client.gui;
 
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
-
-import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.network.chat.Component;
-import net.minecraft.core.BlockPos;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.amod.world.inventory.CraftingGUIMenu;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -43,7 +39,7 @@ public class CraftingGUIScreen extends AbstractContainerScreen<CraftingGUIMenu> 
 		return true;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("a_mod:textures/crafting_gui.png");
+	private static final ResourceLocation texture = new ResourceLocation("a_mod:textures/screens/crafting_gui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -78,16 +74,7 @@ public class CraftingGUIScreen extends AbstractContainerScreen<CraftingGUIMenu> 
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "" + (new Object() {
-			public int getFluidTankLevel(BlockPos pos, int tank) {
-				AtomicInteger _retval = new AtomicInteger(0);
-				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null)
-					_ent.getCapability(CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY, null)
-							.ifPresent(capability -> _retval.set(capability.getFluidInTank(tank).getAmount()));
-				return _retval.get();
-			}
-		}.getFluidTankLevel(new BlockPos((int) x, (int) y, (int) z), 1)) + "", 105, 7, -12829636);
+		this.font.draw(poseStack, new TranslatableComponent("gui.a_mod.crafting_gui.label_fluidlevel"), 105, 7, -12829636);
 	}
 
 	@Override

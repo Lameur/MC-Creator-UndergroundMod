@@ -6,7 +6,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_ingot"
+      "registry_name": "platinium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/platinium_ingot.json",
+          "src/main/java/net/mcreator/amod/item/PlatiniumIngotItem.java"
+        ]
+      }
     },
     {
       "name": "PlatiniumOre",
@@ -14,7 +20,16 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_ore"
+      "registry_name": "platinium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/block/PlatiniumOreBlock.java",
+          "src/main/resources/assets/a_mod/models/block/platinium_ore.json",
+          "src/main/java/net/mcreator/amod/world/features/ores/PlatiniumOreFeature.java",
+          "src/main/resources/assets/a_mod/blockstates/platinium_ore.json",
+          "src/main/resources/assets/a_mod/models/item/platinium_ore.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumBlock",
@@ -22,7 +37,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_block"
+      "registry_name": "platinium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/block/platinium_block.json",
+          "src/main/java/net/mcreator/amod/block/PlatiniumBlockBlock.java",
+          "src/main/resources/assets/a_mod/models/item/platinium_block.json",
+          "src/main/resources/assets/a_mod/blockstates/platinium_block.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumOreBlockRecipe",
@@ -30,7 +53,12 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_ore_block_recipe"
+      "registry_name": "platinium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumBlockOreRecipe",
@@ -38,7 +66,12 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_block_ore_recipe"
+      "registry_name": "platinium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumOreSmelting",
@@ -46,7 +79,12 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_ore_smelting"
+      "registry_name": "platinium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumPickaxeRecipe",
@@ -54,7 +92,12 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_pickaxe_recipe"
+      "registry_name": "platinium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumAxeRecipe",
@@ -62,7 +105,12 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_axe_recipe"
+      "registry_name": "platinium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumSwordRecipe",
@@ -70,7 +118,12 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_sword_recipe"
+      "registry_name": "platinium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumShovelRecipe",
@@ -78,7 +131,12 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_shovel_recipe"
+      "registry_name": "platinium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumHoeRecipe",
@@ -86,7 +144,12 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_hoe_recipe"
+      "registry_name": "platinium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumArmorHelmetRecipe",
@@ -94,7 +157,12 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_armor_helmet_recipe"
+      "registry_name": "platinium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumArmorBodyRecipe",
@@ -102,7 +170,12 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_armor_body_recipe"
+      "registry_name": "platinium_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumArmorLeggingsRecipe",
@@ -110,7 +183,12 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_armor_leggings_recipe"
+      "registry_name": "platinium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumArmorBootsRecipe",
@@ -118,7 +196,12 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_armor_boots_recipe"
+      "registry_name": "platinium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/a_mod/recipes/platinium_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "UndergroundBlockBase",
@@ -126,7 +209,15 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "underground_block_base"
+      "registry_name": "underground_block_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/block/underground_block_base.json",
+          "src/main/resources/assets/a_mod/models/item/underground_block_base.json",
+          "src/main/java/net/mcreator/amod/block/UndergroundBlockBaseBlock.java",
+          "src/main/resources/assets/a_mod/blockstates/underground_block_base.json"
+        ]
+      }
     },
     {
       "name": "UndergroundGrass",
@@ -134,7 +225,15 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "underground_grass"
+      "registry_name": "underground_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/block/UndergroundGrassBlock.java",
+          "src/main/resources/assets/a_mod/models/item/underground_grass.json",
+          "src/main/resources/assets/a_mod/models/block/underground_grass.json",
+          "src/main/resources/assets/a_mod/blockstates/underground_grass.json"
+        ]
+      }
     },
     {
       "name": "GlobalBiome",
@@ -142,7 +241,15 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "global_biome"
+      "registry_name": "global_biome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/world/features/treedecorators/GlobalBiomeFruitDecorator.java",
+          "src/main/java/net/mcreator/amod/world/biome/GlobalBiomeBiome.java",
+          "src/main/java/net/mcreator/amod/world/features/treedecorators/GlobalBiomeLeaveDecorator.java",
+          "src/main/java/net/mcreator/amod/world/features/treedecorators/GlobalBiomeTrunkDecorator.java"
+        ]
+      }
     },
     {
       "name": "CraftingGUI",
@@ -150,7 +257,13 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crafting_gui"
+      "registry_name": "crafting_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/world/inventory/CraftingGUIMenu.java",
+          "src/main/java/net/mcreator/amod/client/gui/CraftingGUIScreen.java"
+        ]
+      }
     },
     {
       "name": "Crafting",
@@ -158,7 +271,16 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crafting"
+      "registry_name": "crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/blockstates/crafting.json",
+          "src/main/resources/assets/a_mod/models/block/crafting.json",
+          "src/main/java/net/mcreator/amod/block/CraftingBlock.java",
+          "src/main/java/net/mcreator/amod/block/entity/CraftingBlockEntity.java",
+          "src/main/resources/assets/a_mod/models/item/crafting.json"
+        ]
+      }
     },
     {
       "name": "Underground",
@@ -168,7 +290,20 @@
       "locked_code": false,
       "registry_name": "underground",
       "metadata": {
-        "ep": true
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/a_mod/blockstates/underground_portal.json",
+          "src/main/java/net/mcreator/amod/item/UndergroundItem.java",
+          "src/main/resources/assets/a_mod/models/item/underground.json",
+          "src/main/java/net/mcreator/amod/world/dimension/UndergroundDimension.java",
+          "src/main/java/net/mcreator/amod/block/UndergroundPortalBlock.java",
+          "src/main/resources/data/a_mod/dimension/underground.json",
+          "src/main/resources/data/a_mod/dimension_type/underground.json",
+          "src/main/java/net/mcreator/amod/world/teleporter/UndergroundTeleporter.java",
+          "src/main/java/net/mcreator/amod/world/teleporter/UndergroundPortalShape.java",
+          "src/main/resources/assets/a_mod/models/block/underground_portal_ew.json",
+          "src/main/resources/assets/a_mod/models/block/underground_portal_ns.json"
+        ]
       }
     },
     {
@@ -177,7 +312,10 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "undergroud_mod"
+      "registry_name": "undergroud_mod",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "CraftingLorsDunClicDroitSurLeBloc",
@@ -187,6 +325,9 @@
       "locked_code": false,
       "registry_name": "crafting_lors_dun_clic_droit_sur_le_bloc",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/procedures/CraftingLorsDunClicDroitSurLeBlocProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -222,7 +363,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/mcreator/amod/item/PlatiniumArmorItem.java",
+          "src/main/resources/assets/a_mod/models/item/platinium_armor_helmet.json",
+          "src/main/resources/assets/a_mod/models/item/platinium_armor_chestplate.json",
+          "src/main/resources/assets/a_mod/models/item/platinium_armor_leggings.json",
+          "src/main/resources/assets/a_mod/models/item/platinium_armor_boots.json"
+        ]
       }
     },
     {
@@ -231,7 +379,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_pickaxe"
+      "registry_name": "platinium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/item/PlatiniumPickaxeItem.java",
+          "src/main/resources/assets/a_mod/models/item/platinium_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "PlatiniumAxe",
@@ -239,7 +393,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_axe"
+      "registry_name": "platinium_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/platinium_axe.json",
+          "src/main/java/net/mcreator/amod/item/PlatiniumAxeItem.java"
+        ]
+      }
     },
     {
       "name": "PlatiniumSword",
@@ -247,7 +407,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_sword"
+      "registry_name": "platinium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/platinium_sword.json",
+          "src/main/java/net/mcreator/amod/item/PlatiniumSwordItem.java"
+        ]
+      }
     },
     {
       "name": "PlatiniumShovel",
@@ -255,7 +421,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_shovel"
+      "registry_name": "platinium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/platinium_shovel.json",
+          "src/main/java/net/mcreator/amod/item/PlatiniumShovelItem.java"
+        ]
+      }
     },
     {
       "name": "PlatiniumHoe",
@@ -263,7 +435,13 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_hoe"
+      "registry_name": "platinium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/platinium_hoe.json",
+          "src/main/java/net/mcreator/amod/item/PlatiniumHoeItem.java"
+        ]
+      }
     },
     {
       "name": "PlatiniumBow",
@@ -271,7 +449,14 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "platinium_bow"
+      "registry_name": "platinium_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/item/PlatiniumBowItem.java",
+          "src/main/java/net/mcreator/amod/entity/PlatiniumBowEntity.java",
+          "src/main/resources/assets/a_mod/models/item/platinium_bow.json"
+        ]
+      }
     },
     {
       "name": "Undergroundportaligniter",
@@ -279,7 +464,13 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "undergroundportaligniter"
+      "registry_name": "undergroundportaligniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/a_mod/models/item/undergroundportaligniter.json",
+          "src/main/java/net/mcreator/amod/item/UndergroundportaligniterItem.java"
+        ]
+      }
     },
     {
       "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc",
@@ -289,6 +480,9 @@
       "locked_code": false,
       "registry_name": "undergroundportaligniter_lorsque_vous_cliquez_avec_le_bouton_droit_de_la_souris_sur_un_bloc",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/amod/procedures/UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBlocProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -324,6 +518,7 @@
       "item.a_mod.platinium_sword": "Platinium Sword",
       "item.a_mod.platinium_bow": "Platinium Bow",
       "item.a_mod.platinium_ingot": "Platinium",
+      "gui.a_mod.crafting_gui.label_fluidlevel": "\u003cfluidlevel\u003e",
       "item.a_mod.underground": "Underground portal igniter",
       "item.a_mod.platinium_axe": "Platinium Axe",
       "item.a_mod.platinium_armor_helmet": "Platinium Helmet",
@@ -362,5 +557,5 @@
     "modElementsPackage": "net.mcreator.amod",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202300110610
 }

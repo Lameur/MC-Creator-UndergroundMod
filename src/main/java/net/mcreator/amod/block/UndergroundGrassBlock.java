@@ -52,5 +52,4 @@ public class UndergroundGrassBlock extends Block {
 	public static void registerRenderLayer() {
 		ItemBlockRenderTypes.setRenderLayer(AModModBlocks.UNDERGROUND_GRASS.get(), renderType -> renderType == RenderType.cutoutMipped());
 	}
-
 }

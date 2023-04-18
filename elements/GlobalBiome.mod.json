@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 39,
   "_type": "biome",
   "definition": {
     "name": "Global Biome",
@@ -30,16 +30,31 @@
       "value": "ELECTRIC_SPARK"
     },
     "particlesProbability": 20.0,
-    "biomeCategory": "UNDERGROUND",
     "rainingPossibility": 0.0,
     "temperature": 0.5,
-    "baseHeight": 9.9,
-    "heightVariation": 0.1,
     "spawnBiome": false,
-    "spawnBiomeNether": false,
     "spawnInCaves": false,
-    "biomeWeight": 10,
-    "biomeDictionaryTypes": [],
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -0.2,
+      "max": 0.2
+    },
+    "genHumidity": {
+      "min": -1.2,
+      "max": -0.8
+    },
+    "genContinentalness": {
+      "min": 1.29,
+      "max": 1.69
+    },
+    "genErosion": {
+      "min": 0.7,
+      "max": 1.0999999999999999
+    },
+    "genWeirdness": {
+      "min": -0.2707218282928375,
+      "max": 0.12927817170716255
+    },
     "grassPerChunk": 6,
     "seagrassPerChunk": 1,
     "flowersPerChunk": 0,

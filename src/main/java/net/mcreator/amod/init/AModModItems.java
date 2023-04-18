@@ -34,12 +34,9 @@ public class AModModItems {
 	public static final RegistryObject<Item> CRAFTING = block(AModModBlocks.CRAFTING, AModModTabs.TAB_UNDERGROUD_MOD);
 	public static final RegistryObject<Item> UNDERGROUND_BLOCK_BASE = block(AModModBlocks.UNDERGROUND_BLOCK_BASE, AModModTabs.TAB_UNDERGROUD_MOD);
 	public static final RegistryObject<Item> UNDERGROUND_GRASS = block(AModModBlocks.UNDERGROUND_GRASS, AModModTabs.TAB_UNDERGROUD_MOD);
-	public static final RegistryObject<Item> PLATINIUM_ARMOR_HELMET = REGISTRY.register("platinium_armor_helmet",
-			() -> new PlatiniumArmorItem.Helmet());
-	public static final RegistryObject<Item> PLATINIUM_ARMOR_CHESTPLATE = REGISTRY.register("platinium_armor_chestplate",
-			() -> new PlatiniumArmorItem.Chestplate());
-	public static final RegistryObject<Item> PLATINIUM_ARMOR_LEGGINGS = REGISTRY.register("platinium_armor_leggings",
-			() -> new PlatiniumArmorItem.Leggings());
+	public static final RegistryObject<Item> PLATINIUM_ARMOR_HELMET = REGISTRY.register("platinium_armor_helmet", () -> new PlatiniumArmorItem.Helmet());
+	public static final RegistryObject<Item> PLATINIUM_ARMOR_CHESTPLATE = REGISTRY.register("platinium_armor_chestplate", () -> new PlatiniumArmorItem.Chestplate());
+	public static final RegistryObject<Item> PLATINIUM_ARMOR_LEGGINGS = REGISTRY.register("platinium_armor_leggings", () -> new PlatiniumArmorItem.Leggings());
 	public static final RegistryObject<Item> PLATINIUM_ARMOR_BOOTS = REGISTRY.register("platinium_armor_boots", () -> new PlatiniumArmorItem.Boots());
 	public static final RegistryObject<Item> PLATINIUM_SWORD = REGISTRY.register("platinium_sword", () -> new PlatiniumSwordItem());
 	public static final RegistryObject<Item> PLATINIUM_PICKAXE = REGISTRY.register("platinium_pickaxe", () -> new PlatiniumPickaxeItem());
@@ -47,8 +44,7 @@ public class AModModItems {
 	public static final RegistryObject<Item> PLATINIUM_SHOVEL = REGISTRY.register("platinium_shovel", () -> new PlatiniumShovelItem());
 	public static final RegistryObject<Item> PLATINIUM_HOE = REGISTRY.register("platinium_hoe", () -> new PlatiniumHoeItem());
 	public static final RegistryObject<Item> PLATINIUM_BOW = REGISTRY.register("platinium_bow", () -> new PlatiniumBowItem());
-	public static final RegistryObject<Item> UNDERGROUNDPORTALIGNITER = REGISTRY.register("undergroundportaligniter",
-			() -> new UndergroundportaligniterItem());
+	public static final RegistryObject<Item> UNDERGROUNDPORTALIGNITER = REGISTRY.register("undergroundportaligniter", () -> new UndergroundportaligniterItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

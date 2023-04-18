@@ -28,14 +28,14 @@ public class AModModBlocks {
 	public static final RegistryObject<Block> PLATINIUM_BLOCK = REGISTRY.register("platinium_block", () -> new PlatiniumBlockBlock());
 	public static final RegistryObject<Block> PLATINIUM_ORE = REGISTRY.register("platinium_ore", () -> new PlatiniumOreBlock());
 	public static final RegistryObject<Block> CRAFTING = REGISTRY.register("crafting", () -> new CraftingBlock());
-	public static final RegistryObject<Block> UNDERGROUND_BLOCK_BASE = REGISTRY.register("underground_block_base",
-			() -> new UndergroundBlockBaseBlock());
+	public static final RegistryObject<Block> UNDERGROUND_BLOCK_BASE = REGISTRY.register("underground_block_base", () -> new UndergroundBlockBaseBlock());
 	public static final RegistryObject<Block> UNDERGROUND_GRASS = REGISTRY.register("underground_grass", () -> new UndergroundGrassBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
+			UndergroundPortalBlock.registerRenderLayer();
 			CraftingBlock.registerRenderLayer();
 			UndergroundGrassBlock.registerRenderLayer();
 		}

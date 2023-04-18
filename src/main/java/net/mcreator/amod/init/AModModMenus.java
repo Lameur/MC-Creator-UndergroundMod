@@ -20,8 +20,7 @@ import java.util.ArrayList;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AModModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
-	public static final MenuType<CraftingGUIMenu> CRAFTING_GUI = register("crafting_gui",
-			(id, inv, extraData) -> new CraftingGUIMenu(id, inv, extraData));
+	public static final MenuType<CraftingGUIMenu> CRAFTING_GUI = register("crafting_gui", (id, inv, extraData) -> new CraftingGUIMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);
