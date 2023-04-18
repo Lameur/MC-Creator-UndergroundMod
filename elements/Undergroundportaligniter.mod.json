@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "mod_icon",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Undergroundportaligniter",
     "rarity": "UNCOMMON",
     "creativeTab": {
@@ -30,6 +30,9 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedOnBlock": {
+      "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
+    },
+    "onCrafted": {
       "name": "UndergroundportaligniterLorsqueVousCliquezAvecLeBoutonDroitDeLaSourisSurUnBloc"
     },
     "isFood": false,

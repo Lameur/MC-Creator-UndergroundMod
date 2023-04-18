@@ -11,17 +11,21 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.amod.init.AModModItems;
 import net.mcreator.amod.init.AModModBlocks;
 
+import java.util.function.Supplier;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.Map;
 
 public class CraftingLorsDunClicDroitSurLeBlocProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -94,25 +98,19 @@ public class CraftingLorsDunClicDroitSurLeBlocProcedure {
 					});
 				}
 			}
-			{
-				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
-				if (_ent != null) {
-					final int _slotid = 9;
-					final ItemStack _setstack = new ItemStack(AModModItems.PLATINIUM_INGOT.get());
-					_setstack.setCount((int) (new Object() {
-						public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-							AtomicInteger _retval = new AtomicInteger(0);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null)
-								_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
-							return _retval.get();
-						}
-					}.getAmount(world, new BlockPos(x, y, z), 1) + 1));
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
-						if (capability instanceof IItemHandlerModifiable)
-							((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-					});
-				}
+			if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
+				ItemStack _setstack = new ItemStack(AModModItems.PLATINIUM_INGOT.get());
+				_setstack.setCount((int) (new Object() {
+					public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
+						AtomicInteger _retval = new AtomicInteger(0);
+						BlockEntity _ent = world.getBlockEntity(pos);
+						if (_ent != null)
+							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
+						return _retval.get();
+					}
+				}.getAmount(world, new BlockPos(x, y, z), 1) + 1));
+				((Slot) _slots.get(0)).set(_setstack);
+				_player.containerMenu.broadcastChanges();
 			}
 		}
 	}
